@@ -1,0 +1,25 @@
+{
+  "name": "nodejs2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archangelmichael/NodeJS2018.git"
+  },
+  "author": "archangelmichael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archangelmichael/NodeJS2018/issues"
+  },
+  "homepage": "https://github.com/archangelmichael/NodeJS2018#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "express-validator": "^4.3.0"
+  }
+}

@@ -1,0 +1,11 @@
+create npm dependencies:
+npm init
+npm install express --save
+npm install body-parser --save
+
+auto rebuild node server after changes:
+npm install nodemon -g
+nodemon
+
+
+

@@ -5,6 +5,8 @@ var bodyParser = require("body-parser");
 var path = require('path');
 var expressValidator = require('express-validator');
 
+var jsonCars = require("./json/cars.json");
+
 var app = express();
 
 const { check, validationResult } = require('express-validator/check');
@@ -15,6 +17,10 @@ app.use(bodyParser.urlencoded({extended : false}));
 
 // Set Static Path
 app.use(express.static(path.join(__dirname, 'public'))); 
+
+app.get('/cars', function (req, res) {
+	res.json(jsonCars);
+});
 
 app.get('/', function (req, res) {
 	res.send('Hello World');

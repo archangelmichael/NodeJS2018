@@ -1,0 +1,4 @@
+[
+	{ "model" : "BMW" , "fuel" : "petrol", "year" : 2009 },
+	{ "model" : "AUDI" , "fuel" : "diesel", "year" : 2010 }
+]
